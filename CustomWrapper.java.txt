@@ -1,0 +1,24 @@
+class Wrapper1{  
+private int i;  
+Wrapper1(){}  
+Wrapper1(int i){  
+this.i=i;  
+}  
+public int getValue(){  
+return i;  
+}  
+public void setValue(int i){  
+this.i=i;  
+}  
+@Override  
+public String toString() {  
+  return Integer.toString(i);  
+}  
+}  
+//Testing the custom wrapper class  
+public class TestWrapper{  
+public static void main(String[] args){  
+Wrapper1 j=new Wrapper1(10);  
+System.out.println(j);  
+}
+}

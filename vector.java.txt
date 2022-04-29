@@ -1,0 +1,14 @@
+import java.util.;  
+public class TestJavaCollection3{  
+public static void main(String args[]){  
+VectorString v=new VectorString();  
+v.add(chandu);  
+v.add(chinna);  
+v.add(siriveli);  
+v.add(chandraSekhar);  
+IteratorString itr=v.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+}  
+}  

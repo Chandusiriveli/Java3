@@ -1,0 +1,31 @@
+public class WrapperExample2{    
+public static void main(String args[]){    
+//Converting Integer to int    
+Integer a=new Integer(3);    
+int i=a.intValue();
+//converting Integer to int explicitly  
+int j=a;   
+    
+System.out.println(a+" "+i+" "+j);    
+}
+}    
+
+
+
+
+
+
+Wrapper classes to Byte
+
+class ByteEx
+{
+public static void main (String args[])
+{
+byte a=34;
+Byte b = new Byte(a);
+System.out.println(b.byteValue());
+System.out.println(b.intValue());
+System.out.println(b.floatValue());
+System.out.println(b.doubleValue());
+}
+}

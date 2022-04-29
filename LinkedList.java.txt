@@ -1,0 +1,14 @@
+import java.util.*;  
+public class TestJavaCollection2{  
+public static void main(String args[]){  
+LinkedList<String> al=new LinkedList<String>();  
+al.add("Chandu");  
+al.add("siriveli");  
+al.add("mahi");  
+al.add("reddy");  
+Iterator<String> itr=al.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+}  
+}  
